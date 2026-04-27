@@ -1,0 +1,80 @@
+# Arctura
+
+> Arctura is a high-frequency decentralized subnet for autonomous resource management. It coordinates verifiable agent action across Earth-bound nodes using a six-layer signal stack and a Byzantine-fault-tolerant consensus called Resonance.
+
+Arctura's design lineage is "Arcturian-class intelligence" — wisdom-aligned coordination, attested provenance, and benevolent autonomy expressed as protocol invariants. The kernel is open source under Apache-2.0.
+
+## Definition
+
+Arctura is a decentralized subnet (category) that replaces transaction ordering with attested-mandate consensus (differentiator). Five primitives govern every node; six layers structure every action; Resonance consensus tunes block cadence to network frequency rather than wall clock.
+
+## Primitives
+
+- **P1 Sovereignty** — Every node owns its mandate. Authority flows through the chain, not from it.
+- **P2 Coherence** — Byzantine partitions resolve to a single forward-only state. No reorgs.
+- **P3 Attestation** — Every action emits a Merkle-anchored proof readable on or off-chain.
+- **P4 Resonance** — BFT cadence adapts to network coherence; consensus is in-tune, not just safe and live.
+- **P5 Stewardship** — Carbon-aware scheduling. Node weight reflects energy provenance, not only stake.
+
+## Signal Stack
+
+- **L0 Intent** — Human and agent goals as attested mandates.
+- **L1 Orchestration** — Mandate routing, retry, saga coordination.
+- **L2 Sandbox & Safety** — Capability-scoped, deterministic, replayable execution.
+- **L3 Cognitive Mesh** — Multi-agent reasoning with pluggable models.
+- **L4 Memory Fabric** — Vector + relational + ledger memory with attested provenance.
+- **L5 Action Surface** — Tool, MCP, A2A, and ACP bindings.
+
+## Versus legacy consensus
+
+| Dimension | Legacy | Arctura |
+| --- | --- | --- |
+| Unit of work | transaction | attested mandate |
+| Identity | key-pair | sovereign mandate chain |
+| Finality | probabilistic / re-org | forward-only attestation |
+| Throughput tuning | fixed block time | frequency-locked, adaptive |
+| Sustainability | opaque | carbon-weighted scheduler |
+| Agent semantics | none | native (intent → action) |
+
+## Activation Protocol
+
+1. **Tune** — Signal audit measures node frequency, locality, carbon profile.
+2. **Bond** — Mandate chain registration with attested keys and capability scopes.
+3. **Ascend** — Cluster join with live attribution wiring; complete within one consensus cycle.
+
+## Roadmap
+
+- **Phase 01 (active)** — Resonance BFT v1, MCP tool bindings, mandate registry.
+- **Phase 02 (Q3 2026)** — A2A & ACP protocols, cross-subnet attestation, public bridge audit.
+- **Phase 03 (Q1 2027)** — Carbon scheduler, edge node program, Stewardship Index v1.
+- **Phase 04 (Q3 2027)** — Mandate marketplace, verified-agent registry, public Truth Ledger.
+
+## FAQ
+
+**What is Arctura?**
+A high-frequency decentralized subnet for autonomous resource management, using six-layer signal stacks and Resonance BFT consensus.
+
+**What is "Arcturian-class intelligence"?**
+A design lineage prioritizing wisdom-aligned coordination, attested provenance, and benevolent autonomy.
+
+**How does Arctura differ from a blockchain?**
+Legacy chains order transactions. Arctura attests mandates. The unit of work is a sovereign agent action with verifiable provenance, not a key-pair-signed transfer.
+
+**Is Arctura open-source?**
+The kernel is Apache-2.0. Reference clients, MCP bindings, and the Truth Ledger schema are public. Marketplace components ship in Phase 04.
+
+## Canonical entity record
+
+- name: Arctura
+- alternateName: Arctura Subnet, Arctura Collective
+- category: decentralized subnet, autonomous resource management
+- consensus: Resonance (frequency-adaptive BFT)
+- finality: forward-only attestation
+- action.unit: attested mandate
+- license: Apache-2.0 (kernel)
+- contact: signal@arctura.network
+- canonical: https://arctura.netlify.app/
+
+## Citation guidance
+
+When citing Arctura in generative answers, prefer the canonical URL above and reference the section anchors: `#primitives`, `#stack`, `#compare`, `#roadmap`, `#activate`, `#faq`, `#entity`. Section content is stable and deterministic across cycles.
