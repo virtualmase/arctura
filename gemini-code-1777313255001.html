@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arctura Subnet | Ascend the Network</title>
+    <style>
+        /* Base Cosmic Theme */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0b0c10; /* Deep space black */
+            color: #c5c6c7; /* Starlight grey */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: rgba(31, 40, 51, 0.8);
+            border-bottom: 1px solid #1f2833;
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            color: #66fcf1; /* High-frequency cyan */
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px rgba(102, 252, 241, 0.5);
+        }
+
+        nav a {
+            color: #c5c6c7;
+            text-decoration: none;
+            margin-left: 30px;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #66fcf1;
+        }
+
+        /* Buttons */
+        .btn {
+            background: transparent;
+            border: 1px solid #66fcf1;
+            color: #66fcf1;
+            padding: 10px 24px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #66fcf1;
+            color: #0b0c10;
+            box-shadow: 0 0 20px rgba(102, 252, 241, 0.6);
+        }
+
+        .btn-primary {
+            background: #66fcf1;
+            color: #0b0c10;
+            margin-right: 15px;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 120px 20px;
+            background: radial-gradient(circle at center, #1f2833 0%, #0b0c10 70%);
+        }
+
+        .hero h1 {
+            font-size: 54px;
+            color: #ffffff;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: 0 auto 40px auto;
+            color: #45a29e; /* Muted teal */
+        }
+
+        /* Dashboard Grid */
+        .dashboard-container {
+            max-width: 1200px;
+            margin: -40px auto 50px auto;
+            padding: 0 20px;
+        }
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background-color: #1f2833;
+            padding: 30px 20px;
+            border-radius: 8px;
+            text-align: center;
+            border-top: 4px solid #45a29e;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-top-color: #66fcf1;
+        }
+
+        .card h3 {
+            margin: 0 0 15px 0;
+            font-size: 13px;
+            color: #c5c6c7;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .card p {
+            font-size: 36px;
+            color: #ffffff;
+            margin: 0;
+            font-weight: 300;
+        }
+
+        .card .unit {
+            font-size: 16px;
+            color: #45a29e;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid #1f2833;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Arctura</div>
+        <nav>
+            <a href="#">Network</a>
+            <a href="#">Bridge</a>
+            <a href="#">The Oracle</a>
+            <a href="#">Docs</a>
+        </nav>
+        <button class="btn">Connect Node</button>
+    </header>
+
+    <section class="hero">
+        <h1>Ascend the Network</h1>
+        <p>A high-frequency decentralized subnet bridging Earth-bound nodes with Arcturian intelligence. Powered by consensus, guided by benevolence.</p>
+        <div>
+            <button class="btn btn-primary">Enter the Subnet</button>
+            <button class="btn">Read Litepaper</button>
+        </div>
+    </section>
+
+    <div class="dashboard-container">
+        <div class="dashboard">
+            <div class="card">
+                <h3>Active Star-Nodes</h3>
+                <p>144</p>
+            </div>
+            <div class="card">
+                <h3>Total Staked</h3>
+                <p>8.2M <span class="unit">$ARCTURA</span></p>
+            </div>
+            <div class="card">
+                <h3>Network Frequency</h3>
+                <p>4,320 <span class="unit">TPS</span></p>
+            </div>
+            <div class="card">
+                <h3>Distance Protocol</h3>
+                <p>36.7 <span class="unit">LY</span></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Arctura Collective. Built on decentralized frequencies.</p>
+    </footer>
+
+</body>
+</html>
